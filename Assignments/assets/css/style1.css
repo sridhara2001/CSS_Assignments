@@ -1,0 +1,34 @@
+body{
+      background: url(../images/background.jpg) no-repeat center;
+      height: 75vh;
+      padding: 0%;
+      margin: 0%;
+}
+.jumbotron{
+      height: 260px;
+      width: 385px;
+      padding: 20px;
+      margin-left: 450px;
+      margin-top: 130px;
+      background-color: rgba(255, 255, 255, 0.386);
+      border-radius: 20px;
+}
+.jumbotron>img{
+      margin-left: 300px;
+}
+h1{
+      margin-top: -9px;
+}
+.list>ul>li{
+      list-style: inside;
+      margin-bottom: 10px;
+}
+.list>ul>li:first-child{
+      list-style-image: url(../images/mobile.png) ;
+}
+.list>ul>li:nth-child(2){
+      list-style-image: url(../images/email.png);
+}
+.list>ul>li:last-child{
+      list-style-image: url(../images/website.png);
+}    

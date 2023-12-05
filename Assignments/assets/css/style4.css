@@ -1,0 +1,66 @@
+body{
+      background: url(../images/background.jpg) no-repeat center;
+      padding: 0%;
+      margin: 0%;
+}
+.common{
+      display: inline-block;
+      padding: 5px;
+      margin-top: 70px;
+}
+.jumbotron{
+      padding: 3px;
+      height: 450px;
+      width: 300px;
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.632);
+      border-radius: 25px;
+}
+.jumbotron:hover{
+      background-color: aqua;
+}
+.result{
+      text-align: center;
+      height: 250px;
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
+      border-bottom-right-radius: 60%;
+}
+.jumbotron>.result{
+      background-color: purple;
+}
+img{
+      margin-top: 60px;
+}
+button{
+      padding: 5px 25px;
+      font-size: large;
+      font-weight: 500;
+      color: white;
+      border-radius: 20px;
+      border: none;
+      margin-top: 10px;
+}
+.jumbotron>button{
+      background-color: purple;
+}
+.jumbo{
+      padding: 3px;
+      height: 450px;
+      width: 300px;
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.632);
+      border-radius: 25px;
+}
+.jumbo>.result{
+      background-color: rgb(20, 124, 188);
+}
+.jumbo>button{
+      background-color:rgb(20, 124, 188);
+}
+.jumbo:hover{
+      background-color: limegreen;
+}
+button:hover{
+      background-color: black;
+}

@@ -1,0 +1,135 @@
+/* P3.HTML CODE */
+body{
+      background: url(../images/background.jpg) no-repeat center;
+      padding: 0%;
+      margin: 0%;
+}
+.item{
+      height: 400px;
+      width: 300px;
+      color: white;
+      background-color: rgba(255, 255, 255, 0.415);
+      margin-left: 500px;
+      margin-top: 120px;
+      text-align: center;
+      border-radius: 20px;
+}
+.item:hover{
+      background-color: rgba(72, 81, 99, 0.277);
+}
+.img>img{
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      border: 5px solid rgb(255, 255, 255);
+      margin-top: -60px;
+}
+.item>p{
+      background-color: rgb(224, 59, 86);
+      padding: 15px 13px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      margin-top: -29px;
+}
+.img, .img1{
+      margin-bottom: 50px;
+}
+.img1>a{
+      padding: 3px;
+}
+h2, a{
+      margin-bottom: 47px;
+}
+
+/* P4.HTML CODE */
+.card{
+      height: 400px;
+      width: 300px;
+      color: white;
+      background-color: rgba(255, 255, 255, 0.415);
+      margin-left: 500px;
+      margin-top: 100px;
+      text-align: center;
+      border-radius: 25px;
+}
+.card:hover{
+      background-color: rgba(72, 81, 99, 0.277);
+}
+.card>button{
+      padding: 8px 20px ;
+      color: white;
+      border-radius: 20px;
+      border: none;
+      background-color: rgb(38, 18, 153);
+}
+.card>button:hover{
+      background-color: black;
+}
+.text{
+      background-color: orange;
+      padding: 50px;
+      border-bottom-left-radius: 50%;
+      border-bottom-right-radius: 50%;
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
+      font-size: x-large;
+}
+.text:hover{
+      background-color: blue;
+}
+.card>p{
+      padding: 10px;
+      line-height: 1.5;
+}
+
+/* P5>HTML CODE */
+.test{
+      height: 400px;
+      width: 270px;
+      padding: 10px;
+      color: white;
+      border: 1px solid white;
+      background-color: rgba(255, 255, 255, 0.415);
+      margin-left: 520px;
+      margin-top: 90px;
+      text-align: center;
+      border-radius: 20px;
+      font-weight: bolder;
+}
+.test:hover{
+      background-color: rgba(72, 81, 99, 0.277);
+}
+.test>img{
+      height: 100px;
+      width: 100px;
+      border-radius: 60%;
+      margin-top: 16px;
+      border: 5px solid rgba(255,255,255,0.6);
+      background-color: grey;
+}
+.test>button{
+      padding: 8px 20px ;
+      color: white;
+      font-weight: bolder;
+      border-radius: 5px;
+      border: 1px solid rgba(255,255,255,0.6);
+      background-color: transparent;
+}
+.test>button:hover{
+      background-color: rgb(51, 9, 190);
+}
+.vk>a>img{
+      height: 47px;
+      width: 47px;
+      border-radius: 60%;
+      background-color: rgba(255,255,255,0.1);
+}
+.vk, button{
+      margin-bottom: 18px;
+}
+.vk>a{
+      padding: 5px;
+}
+.test>p, .test>a{
+      margin-bottom: 60px;
+}

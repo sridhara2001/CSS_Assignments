@@ -1,0 +1,56 @@
+/* P1.HTML CODE */
+*{
+      padding: 0%;
+      margin: 0%;
+}
+.test{
+      background: url(../images/studying.jpg)no-repeat center;
+      background-size: 100%;
+      height: 100vh;
+}
+.result:hover{
+      color: coral;
+}
+header>nav>img{
+      height: 54px;
+      width: 120px;
+}
+header>nav>ul{
+      list-style-type: none;
+      float: right;
+}
+header>nav>ul>li{
+      display: inline-block;
+      padding: 20px;
+}
+header>nav>ul>li>a{
+      text-decoration: none;
+}
+header>nav>ul>li:hover{
+      background-color: darkgrey;
+}
+.test>button{
+      color: white;
+      padding: 10px 25px ;
+      border-radius: 40px;
+      border: 1px solid darkorange;
+      background-color: darkorange;
+      font-weight: bolder;
+}
+.test>button:hover{
+      background: transparent;
+}
+.result{
+      margin-left: 30px;
+      font-weight: bolder;
+}
+.commonclass{
+      font-size: xx-large;
+}
+.hello{
+      float: right;
+      height: 65vh;
+      margin-right: 80px;
+      margin-top: -90px;
+      width: 350px;
+}
